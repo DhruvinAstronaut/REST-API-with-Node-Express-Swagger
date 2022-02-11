@@ -1,0 +1,22 @@
+{
+  "name": "restfulpi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Smit Sohagiya",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.7",
+    "debug": "^4.3.3",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.3.0",
+    "time-stamp": "^2.2.0",
+    "validator": "^13.7.0"
+  }
+}

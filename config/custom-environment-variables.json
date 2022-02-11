@@ -1,0 +1,10 @@
+{
+    "mail" : {
+        "password" : "app_password"
+    },
+    "description" : {
+
+        "details" : "app_details"
+    }
+    
+}
