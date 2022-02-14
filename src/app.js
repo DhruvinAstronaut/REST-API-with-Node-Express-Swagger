@@ -25,9 +25,10 @@ const options = {
         },
       ],
     },
-    apis: ["./src/routers/userRouter.js"],
+    apis: ["./routers/userRouter.js"], // Used to call all the apis from there place 
   };
   
+  // Use this step in all project as it is
   const specs = swaggerJsDoc(options);
   app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(specs));
 

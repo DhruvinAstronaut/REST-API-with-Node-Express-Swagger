@@ -30,19 +30,19 @@ userRouter.get("/checkApi", userController.checkApi);
  *                      properties:
  *                          firstName:
  *                              type: string
- *                              example: Smit
+ *                              example: Dhruvin
  *                          lastName:
  *                              type: string
- *                              example: Sohagiya
+ *                              example: Khant
  *                          email:
  *                              type: string
- *                              example: smitsohagiya@gmail.com
+ *                              example: dhruvinkhant@gmail.com
  *                          phone:
  *                              type: string
- *                              example: 7894561230
+ *                              example: 8866813547
  *                          address:
  *                              type: string
- *                              example: Surat
+ *                              example: Ahmedabad  ++
  *                          
  *      responses:
  *          '201':
